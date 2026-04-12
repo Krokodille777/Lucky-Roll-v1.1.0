@@ -89,10 +89,14 @@ function redrawWheel() {
   context.restore();
 }
 
-// Add Segment
-const addbtn = document.getElementById("addBtn");
-addbtn.addEventListener("click", function () {
-  segments.push({ label: `Segment ${segments.length + 1}` });
+// Add Segment. 
+const addBtn = document.getElementById("addBtn");
+addBtn.addEventListener("click", function () {
+  
+  const newSegment = {
+    label: `Segment ${segments.length + 1}`
+  };
+  segments.push(newSegment);
   redrawWheel();
 });
 

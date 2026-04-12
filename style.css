@@ -87,7 +87,7 @@
     margin: 30px auto;
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #3498db;
+    background-color: #534891;
     color: white;
     cursor: pointer;
 }
@@ -97,7 +97,7 @@
     padding: 10px 15px;
     font-size: 14px;
     cursor: pointer;
-    background-color: #27ae60;
+    background-color: #534891;
     color: white;
     border-radius : 5px;
 }
@@ -111,7 +111,7 @@
 }
 body {
     font-family: Arial, sans-serif;
-    background-color: #120250;
+    background-color: #29204e;
     margin: 0;
     padding: 0;
 }
@@ -123,8 +123,9 @@ header {
     justify-content: space-between; 
     align-items: center;
     padding: 10px 5%; 
-    color: #ffd900;
-    min-height: 60px;
+    color: #c5c5c5;
+    background-color:#261b52;
+    min-height: 70px;
 }
 
 #nav1 {
@@ -149,14 +150,19 @@ header {
 #nav1 #languageSelect {
     font-size: 16px;
     padding: 5px;
-    background-color: #27ae60;
+    background-color: #534891;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 hr{
+    margin-bottom: 20px;
     border: 0;
     height: 2px;
-    background: #ffd900;
+    background: #bebebe;
+}
+
+#MyCanvas {
+    margin-right: 18px;
 }
